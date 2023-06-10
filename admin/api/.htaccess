@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([^/]+)/? index.php?endpoint=$1 [L,QSA]

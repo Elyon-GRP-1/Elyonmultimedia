@@ -1,0 +1,368 @@
+
+
+<html lang="en">
+
+<head>
+	<style data-merge-styles="true"></style>
+	<style data-merge-styles="true"></style>
+	<style data-merge-styles="true"></style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Jekyll v3.8.5">
+	<title>Ecommerce</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/dashboard/">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+	<style>
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5px;
+}
+
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+		.fa-trash-alt,
+		.fa-pencil-alt {
+			color: #fff;
+		}
+
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+	<!-- Custom styles for this template -->
+	<link href="./css/dashboard.css" rel="stylesheet">
+	<style type="text/css">
+		/* Chart.js */
+		@-webkit-keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		.chartjs-render-monitor {
+			-webkit-animation: chartjs-render-animation 0.001s;
+			animation: chartjs-render-animation 0.001s;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+		<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Ecommerce Site</a>
+		<!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" spellcheck="false" data-ms-editor="true"> -->
+		<ul class="navbar-nav px-3">
+			<li class="nav-item text-nowrap">
+				<a class="nav-link" href="../admin/admin-logout.php">Sign out</a>
+
+			</li>
+		</ul>
+	</nav><br /><br /><br />
+	<br />
+		<div class="container-fluid">
+		<div class="row">
+
+			<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+				<div class="sidebar-sticky">
+					<ul class="nav flex-column">
+
+
+		
+		
+			
+		
+		<div class="sidebar">
+  <ul class="sidebar-menu">
+    <li class="sidebar-menu-item">
+      <a href="#">Home</a>
+    </li>
+    <li class="sidebar-menu-item has-submenu">
+      <a href="#">E-FLYERS</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+				</i>church flyers</li>
+				</i>Digital Artworks</li>
+				</i>Funeral Posters</li>
+				</i>certificate designs</li>
+				</i>labels/Branding</li>
+				</i>Envelope designing</li>
+				</i>manymore</li>
+      </ul>
+    </li>
+
+	<li class="sidebar-menu-item has-submenu">
+      <a href="#">PRINTING</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Flexy</li>
+				</i>Stickers</li>												
+				</i>Billboards</li>	
+				</i>T-shirt Printing</li>
+				</i>Embroidery</li>												
+				</i>Paper Bags</li>												
+				</i>Customize cups</li>
+				</i>manymore</li>	
+	  </ul>				
+    </li>
+  </ul>
+
+  <li class="sidebar-menu-item has-submenu">
+      <a href="#">PHOTOGRAPHY SECTIONS</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Flexy</a></li>
+		</i>Pre-Wedding shoot</a></li>
+					</i>Silver shoot</a></li>												
+					</i>Naming ceremony</a></li>	
+					</i>Platinum</a></li>
+					</i>Brand photoshoot</a></li>												
+					</i>Gold</a></li>		
+	  </ul>		
+    </li>
+	
+	<li class="sidebar-menu-item has-submenu">
+      <a href="#">SILVER WEDDING SHOOT PACKAGE</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Photography & Videography</a></li>
+					</i>Unlimited Soft copies</a></li>												
+					</i>Online images high quality</a></li>	
+					</i>A4 Photo book</a></li>
+					</i>Wedding highlight</a><a class="btn btn-primary" href="#">¢2,500.00</a></li>			
+	  </ul>
+				</li>
+
+
+				<li class="sidebar-menu-item has-submenu">
+      <a href="#">NAMING CEREMONY PACKAGE</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Photography & Videography</a></li>
+		</i>Cinematographer plus Pictures</a></li>
+					</i>8 by 20 Digital Album</a></li>												
+					</i>16 by 20 inches Picture Frame</a></li>	
+					</i>Unlimited soft copies on Flash drive</a><a class="btn btn-primary" href="#">¢1,500.00</a></li>																								
+	  </ul>
+				</li>
+
+
+				<li class="sidebar-menu-item has-submenu">
+				<a href="#">PLATINUM PACKAGE</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Photography & Videography</a></li>
+		</i>Cinematographer plus Pictures</a></li>
+		</i>Cinematographer & Photography</a></li>
+					</i>8 by 20 Digital Album</a></li>	
+					</i>Online images high quality</a></li>												
+					</i>16 by 20 inches Picture Frame (2)</a></li>
+					</i>17 by 20 inches canvas Frame (2)</a></li>	
+					</i>Unlimited soft copies on Flash drive</a></li>
+					</i>Wedding highlight</a></li>
+					</i>A3 Photo book</a></li>
+					</i>4 photographers</a></li>
+					</i>2 for Bride</a></li>	
+					</i>2 for Groom</a></li>
+					</i>Pre-Wedding shoot</a></li>
+					</i>Invitaion Design</a></li>
+					</i>Autograph</a></li>	
+					</i>Drone shooting</a><a class="btn btn-primary" href="#">¢6,500.00</a></li>																							
+		 </ul>
+				</li>
+
+
+
+				<li class="sidebar-menu-item has-submenu">
+      <a href="#">BRAND PHOTOSHOOT PACKAGE</a>
+      <ul class="submenu">
+		</i>Wedding invitaitons</a></li>
+		</i>Photography & Videography</a></li>
+		</i>Cinematographer plus Pictures</a></li>
+		</i>Product Design</a></li>
+					</i>Both Indoors and Outdoor shoot</a></li>												
+					</i>10 High picture Retouching</a><a class="btn btn-primary" href="#">¢2,500.00</a></li>																									
+			 </ul>
+				</li>
+
+
+				<li class="sidebar-menu-item has submenu">
+				<a href="#">GOLD PACKAGE</a>
+				<ul class="submenu">
+				<ul style="display:none">
+					</i>Photography & Videography</a></li>
+					</i>Unlimited Soft copies on FLash drive</a></li>												
+					</i>Online images high quality</a></li>	
+					</i>A3 Photo book</a></li>
+					</i>16 by 20 inches Picture Frame (2)</a></li>
+					</i>Wedding highlight</a></li>	
+					</i>2 photographers</a><a class="btn btn-primary" href="#">¢3,300.00</a></li>																							
+			</ul>
+			</li>
+
+
+
+
+
+    <li class="sidebar-menu-item">
+      <a href="#">About</a>
+    </li>
+    <li class="sidebar-menu-item">
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</div>
+
+			</nav>
+
+
+			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+				
+			
+
+				<h2>
+					<center><u>Service Catalogues</u></center>
+				</h2>
+				<div class="table-responsive">
+					
+				</div>
+                
+                <form action="/submit" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="worktype">Work Type:</label>
+        <select id="worktype" name="worktype">
+          <option value=""></option>
+          <option value="Web Development">E-flyer</option>
+          <option value="Web Development">Wedding Invite</option>
+          <option value="Web Development">Digital Artwork</option>
+          <option value="Web Development">Buneral poster</option>
+          <option value="Web Development">Bill board designing</option>
+          <option value="Web Development">Church Flyers</option>
+          <option value="Web Development">Banners</option>
+          <option value="Web Development">labels</option>
+          <option value="Web Development">stickers</option>
+          <option value="Graphic Design">Photoshoot</option>
+          <option value="Content Writing">video animations</option>
+          <option value="Video Production">Video Production</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="description">Work Description:</label>
+        <textarea id="description" name="description"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+      <div class="form-group">
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+
+		<label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+
+		<label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+      </div>
+      <button type="submit">Submit your work</button>
+    </form>
+			</main>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+	<script src="./js/dashboard.js"></script>
+
+
+	<script type="text/javascript" src="./js/admin.js"></script>
+</html>
